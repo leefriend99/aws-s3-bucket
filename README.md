@@ -3,7 +3,7 @@ Module to create S3 buckets to Collinson and Security standards and aligning wit
 
 Features:
 - access logging
-- versioning
+- versioning (uses common S3 Access Log bucket)
 - lifecycle rules
 - server-side encryption
 

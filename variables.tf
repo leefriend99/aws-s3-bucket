@@ -33,6 +33,19 @@ variable "bucket_description" {
   type        = string
 }
 
+# Defaults to align to Collinson / security / best practise
+variable "disable_access_logging" {
+  description = "Access logging is required and only disabled with approval."
+  type        = bool
+  default     = false
+}
+
+variable "disable_versioning" {
+  description = "Versioning is required and only disabled with approval."
+  type        = bool
+  default     = false
+}
+
 # variable "client" {
 #   description = "Specify the client accessing this resource."
 #   type        = string
