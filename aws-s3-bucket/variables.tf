@@ -3,20 +3,20 @@ variable "environment" {
   description = "Environment for resource deployment i.e., test, uat, prod"
 }
 
-variable "product" {
-  description = "Product name"
-  type        = string
-}
+# variable "product" {
+#   description = "Product name"
+#   type        = string
+# }
 
-variable "project" {
-  description = "Project or common name used throughout for naming resources"
-  type        = string
-}
+# variable "project" {
+#   description = "Project or common name used throughout for naming resources"
+#   type        = string
+# }
 
-variable "base_tags" {
-  description = "base tags to apply"
-  type        = any
-}
+# variable "base_tags" {
+#   description = "base tags to apply"
+#   type        = any
+# }
 
 variable "aws_region" {
   description = "AWS region"
